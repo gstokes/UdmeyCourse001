@@ -5,3 +5,16 @@
         clear: both;
     }
 }
+
+//BOX SHADOWS
+@mixin shadow15{
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+};
+
+@mixin shadow30{
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .30);
+};
+
+@mixin shadow60{
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .60);
+};
